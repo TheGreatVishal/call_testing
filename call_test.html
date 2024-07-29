@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Call Button</title>
+    <style>
+        #callButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="callButton">Call Now</button>
+
+    <script>
+        document.getElementById('callButton').addEventListener('click', function() {
+            window.location.href = 'tel:+1234567890'; // Replace with the desired phone number
+        });
+    </script>
+</body>
+</html>
